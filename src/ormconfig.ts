@@ -1,4 +1,5 @@
 import { ConnectionOptions } from "typeorm";
+import {adminUser1672605593595} from './migrations/1672605593595-admin-user'
 
 
 
@@ -8,10 +9,10 @@ const config: ConnectionOptions = {
   port: Number(process.env.DATABASE_PORT),
   username: 'postgres', // process.env.DATABASE_USERNAME,
   password: 'pass123', // process.env.DATABASE_PASSWORD,
-  database: 'teambond', // process.env.DATABASE_NAME,
+  database: 'propertyList', // process.env.DATABASE_NAME,
   entities: [`${__dirname  }/entity/**/*{.ts,.js}`],
   migrations: [
-   
+    adminUser1672605593595
   ],
   synchronize: true,
   extra: {
