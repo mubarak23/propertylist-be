@@ -1,6 +1,7 @@
 enum Tables {
   UrlShortLer = "UrlShortLer",
-  USER = 'users'
+  USER = 'users',
+  PROPERTIES = 'properties'
 }
 
 export default Tables;

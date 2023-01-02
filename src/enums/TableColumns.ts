@@ -23,6 +23,20 @@ export enum UsersColumns {
 }
 
 
+export enum PropertyColumns {
+  UUID = "uuid",
+  USER_ID = "user_id",
+  NAME = "name",
+  LOCATION = 'location',
+  DESCRIPTION = "description",
+  CONTACT = "contact",
+  TYPE = "types",
+  AMENITIES = "Amenities",
+  PICTURES = "pictures",
+  IS_SOFT_DELETED = "isSoftDeleted"
+}
+
+
 
 export const TableColumns: any = {
   ID: "id",
