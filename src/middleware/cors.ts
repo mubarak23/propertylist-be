@@ -7,6 +7,7 @@ const runCorsMiddleware = (app: express.Application) => {
     origin: [
       'http://localhost:42965',
       "http://localhost:4200",
+      "http://localhost:3000",
       "http://localhost:3000"
       // 'http://192.168.88.203'
     ],
