@@ -10,7 +10,7 @@ import { User } from "./User";
 
 
 @Entity({ name: Tables.PROPERTIES })
-export class property extends DefualtEntity {
+export class Property extends DefualtEntity {
   @Column({ name: PropertyColumns.UUID, unique: true })
   uuid: string;
 
